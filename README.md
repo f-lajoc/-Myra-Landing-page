@@ -1,4 +1,4 @@
-# Myra-Landing-page
+# Myra| Landing-page
 Website for Work search
 
 ## Table of contents
@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/104025961/230787044-9d278a0b-f27f-4f29
 
 ### Links
 
-- Solution URL: [https://github.com/f-lajoc/Color-changing-background] 
+- Solution URL: [https://github.com/f-lajoc/-Myra-Landing-page] 
 - Live Site URL: [https://f-lajoc.github.io/Color-changing-background/]
 
 ## My process
