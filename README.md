@@ -74,7 +74,7 @@ https://user-images.githubusercontent.com/104025961/230787044-9d278a0b-f27f-4f29
 
 - I'm getting better at manipulating flex
 
-- I want to use another hosting site like vercel, netlifu
+- I used another hosting site Vercel
 
 - First time I'll embed a site in another
 
