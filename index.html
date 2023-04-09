@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Counter</title>.
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--Bootstrap 5.2 css  -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- navigation -->
+  <header>
+    
+  <nav class="navbar navbar-expand-md  navbar-dark bg-dark" > 
+    
+    <div class="container-xxl">
+     <div>  <h1 class="navbar-brand display-3 " > Myra | Work Center  <i class="fa fa-search"></i></h1> </div>
+    
+           <div> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+      </div>
+      
+      <!-- nav links -->
+      <div id="main-nav" class="collapse navbar-collapse justify-content-end align-center">
+        <ul class=" navbar-nav">
+                  <li class="nav-item"> 
+            <a class="nav-link" href="#home">Home</a>
+             </li>
+     
+          <li class="nav-item"> 
+            <a class="nav-link" href="#services">Services</a>
+             </li>
+              <li class="nav-item"> 
+            <a class="nav-link" href="#products">Company products</a>
+             </li>
+              <li class="nav-item"> 
+            <a class="nav-link" href="#contact">Contact</a>
+             </li>
+        </ul>
+      </div>
+     
+  </div>
+  </nav>
+  
+  </header>
+ 
+ 
+<!-- home -->
+   <div id="home"> 
+     
+   
+  
+  <div> 
+  <h2 class="h1">Searching for work?</h2>
+  
+  <div class="input-group mb-3 w-50 mx-auto col-10 col-md-8 col-lg-6">
+  <input type="text" class="form-control input" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-dark" type="button"><i class="fa fa-arrow-right"></i></button>
+  </div>
+</div>
+  </div>
+  </div><!-- home -->
+  
+  
+  
+  <!-- services -->
+  
+  
+  
+  <main class="services">
+    <h2 id="services">Services</h2>
+    
+  <div class="works">
+    
+  <!-- graphics -->
+  <div class="graphics work">
+    <img src="images/graphics.jpeg" alt="graphics icon">
+    <div class="text">
+      <h3>Graphics Design</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+      <p class="learn-more">Learn more <i class="fa fa-arrow-right"></i></p>
+    </div>
+  </div>
+  
+  <!-- dev -->
+  <div class="devs work">
+    <img src="images/dev.jpeg" alt="dev icon">
+    <div class="text">
+      <h3>Web Development</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+      <p class="learn-more">Learn more <i class="fa fa-arrow-right"></i></p>
+    </div>
+  </div>
+  
+  <!-- content -->
+  <div class="content work">
+    <img src="images/content.jpeg" alt="content icon">
+    <div class="text">
+      <h3>Content Writing</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+      <p class="learn-more">Learn more <i class="fa fa-arrow-right"></i></p>
+    </div>
+  </div>
+  
+  <!-- digital -->
+  <div class="digital  work">
+    <img src="images/digital.jpeg" alt="digital icon">
+    <div class="text">
+      <h3>Digital Marketing</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+      <p class="learn-more">Learn more <i class="fa fa-arrow-right"></i></p>
+    </div>
+  </div>
+  
+  <!-- ui -->
+  <div class="ui  work">
+    <img src="images/ui.jpeg" alt="ui icon">
+    <div class="text">
+      <h3>UI/UX</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+      <p class="learn-more">Learn more <i class="fa fa-arrow-right"></i></p>
+    </div>
+  </div>
+  
+  <!-- data -->
+  <div class="data  work">
+    <img src="images/data.jpeg" alt="data icon">
+    <div class="text">
+      <h3>Data Analysis</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+      <p class="learn-more">Learn more <i class="fa fa-arrow-right"></i></p>
+    </div>
+  </div>
+  <div><!-- works -->
+    
+    </main>
+    
+    
+  <!-- company products -->
+  <main class="company-products">
+     <h2 id="products">Company products</h2>
+     
+    <div class="card-container">
+      
+      <!-- project 1 -->
+      
+       <div class="project counter">
+      
+  <div class="text">
+  <h3>Counter:</h3>
+  <h3 id="index">0</h3>
+  </div>
+      
+  <div class="btns">
+  <button type="button"  onClick="increment() " class="btn btn-dark">INCREMENT</button> 
+  <button type="button"  onClick="decrement() " class="btn btn-dark">DECREMENT</button> 
+  <button type="button"  onClick="save() " class="btn btn-dark">SAVE</button> 
+  </div>
+  
+  <p class="text" id="enteries">Previous Enteries: </p>
+      </div>
+  
+    
+  
+    <!-- project 2 -->
+  <div class="project cChange">  
+     <div> 
+        <embed src="https://f-lajoc.github.io/Color-changing-background/" style="width:80%; height: 10em;">
+      </div>
+  
+    </div>
+    </div>
+    
+  </main>
+  
+  
+  
+  
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="resources footer">
+        <h3>Resources</h3>
+        <h4>Blog </h4>
+        <h4>Status </h4>
+        <h4>Help us </h4>
+      </div>
+      
+      <div class="abstract footer ">
+        <h3>Abstract</h3>
+       <h4>Start work </h4>
+       <h4>Pricing </h4>
+       <h4>Download </h4>
+      </div>
+      
+      <div class="company  footer">
+        <h3>Company</h3>
+        <h4>About us </h4>
+        <h4>Careers </h4>
+        <h4>Legal </h4>
+      </div>
+      
+      <div class="contact  footer">
+        <h3>Contact</h3>
+      <ul class="footer-link">
+                  <li><a href="https://github.com/f-lajoc/ "><i class="fa fa-github"> GitHub</i> </a> </li>
+                  <li>  <a href="https://www.instagram.com/lajoc_devs"> <i class="fa fa-instagram"> Instagram</i>  </a>  </li>
+                
+                  <li>  <a href=" https://www.twitter.com/lajoc__"> <i class="fa fa-twitter"> Twitter</i> </a> </li>
+                    
+                   
+    </ul>
+      </div>
+    </div><!-- container of footer -->
+    
+    Made by <a href="https://www.instagram.com/lajoc_devs" style="color: lightblue;">lajoc_devs</a></footer>
+  </footer>
+  
+ 
+  
+  
+  
+  
+  <script src="script.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+
+  
+  
+</body>
+</html>
